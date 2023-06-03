@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Drum Machine</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Drum Machine Project</h1>
+        <p>Created for <a href="https://www.freecodecamp.org">freecodecamp</a></p>
+    </header>
+  <div id="drum-machine">
+    <div id="display"></div>
+    <div id="display-title"></div>
+    <div class="drum-pad-row">
+      <div class="drum-pad" id="Q" title="Heater 1">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+        Q
+      </div>
+      <div class="drum-pad" id="W" title="Heater 2">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>
+        W
+      </div>
+      <div class="drum-pad" id="E" title="Heater 3">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
+        E
+      </div>
+    </div>
+    <div class="drum-pad-row">
+      <div class="drum-pad" id="A" title="Heater 4">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>
+        A
+      </div>
+      <div class="drum-pad" id="S" title="Clap">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>
+        S
+      </div>
+      <div class="drum-pad" id="D" title="Open-HH">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>
+        D
+      </div>
+    </div>
+    <div class="drum-pad-row">
+      <div class="drum-pad" id="Z" title="Kick-n'-Hat">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>
+        Z
+      </div>
+      <div class="drum-pad" id="X" title="Kick">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>
+        X
+      </div>
+      <div class="drum-pad" id="C" title="Closed-HH">
+        <audio class="clip" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
+        C
+      </div>
+    </div>
+    <div id="volume-control">
+        <label for="volume-slider">Volume:</label>
+        <input type="range" id="volume-slider" min="0" max="100" value="50">
+      </div>
+  </div>
+  <footer>
+    <div>by John Liter.</div>
+    <div class="social-icons">
+        <a href="https://twitter.com/te03civiclx1" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/te03civiclx" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/jliterblog/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/johnliter" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://accounts.snapchat.com/accounts/snapcodes?type=svg" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="https://codepen.io/civic-coder-guy" target="_blank"><i class="fab fa-codepen"></i></a>
+      </div>
+  </footer>
+  <div class="credit">
+    Image by <a href="https://pixabay.com/users/kpr2-1306241/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1573332">Klaus P. Rausch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1573332">Pixabay</a> 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
